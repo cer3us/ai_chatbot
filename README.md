@@ -46,6 +46,8 @@ The bot also integrates with **Telegram**, manages multiple conversations, and a
 - No authentication required – guests can chat immediately (session‑based).
 - Ready to add Laravel Breeze / Jetstream for user accounts.
 
+### 🕵️ Detailed logging
+- Custom Logs in `logs/laravel.log`
 ---
 
 ## 🧰 Tech Stack & Dependencies
@@ -157,6 +159,7 @@ The bot will respond to any text message using the same AIService as the web cha
     Fact: I love pizza.
     Remember: my birthday is Jan 1.
 ```
+---
 
 📄 License
 - MIT
@@ -169,4 +172,6 @@ The bot will respond to any text message using the same AIService as the web cha
 - [Ollama](https://ollama.com/)
 - [PGVector](https://github.com/pgvector/pgvector)
 - [romanlazko/laravel-telegram](https://github.com/romanlazko/laravel-telegram)
+
+---
 
