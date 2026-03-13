@@ -57,7 +57,7 @@ The bot also integrates with **Telegram**, manages multiple conversations, and a
 | **Real‑time**            | Laravel Reverb                                 |
 | **Database**             | PostgreSQL + `pgvector` extension              |
 | **Caching / Queue**      | Redis                                          |
-| **AI Abstraction**       | [Prism](https://prismphp.com/) (EchoLabs)     |
+| **AI Abstraction**       | Prism (EchoLabs)     |
 | **Local AI**             | Ollama (any local model as `phi3:mini`, `nomic-embed-text`for embeddings etc.) |
 | **Cloud AI**             | OpenRouter (or any OpenAI‑compatible)          |
 | **Embeddings**           | Local Ollama with `nomic-embed-text`           |
@@ -162,11 +162,11 @@ The bot will respond to any text message using the same AIService as the web cha
 MIT
 
 🙏 Acknowledgements
-https://laravel.com/
-https://livewire.laravel.com/
-https://laravel.com/docs/11.x/reverb
-https://prismphp.com/
-https://ollama.com/
-https://github.com/pgvector/pgvector
-https://github.com/romanlazko/laravel-telegram
+[Laravel](https://laravel.com/)
+[Livewire](https://livewire.laravel.com/)
+[Reverb](https://laravel.com/docs/11.x/reverb)
+[Prism](https://prismphp.com/)
+[Ollama](https://ollama.com/)
+[PGVector](https://github.com/pgvector/pgvector)
+[romanlazko/laravel-telegram](https://github.com/romanlazko/laravel-telegram)
 
