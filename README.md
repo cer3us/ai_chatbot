@@ -159,14 +159,14 @@ The bot will respond to any text message using the same AIService as the web cha
 ```
 
 📄 License
-MIT
+- MIT
 
 🙏 Acknowledgements
-[Laravel](https://laravel.com/)
-[Livewire](https://livewire.laravel.com/)
-[Reverb](https://laravel.com/docs/11.x/reverb)
-[Prism](https://prismphp.com/)
-[Ollama](https://ollama.com/)
-[PGVector](https://github.com/pgvector/pgvector)
-[romanlazko/laravel-telegram](https://github.com/romanlazko/laravel-telegram)
+- [Laravel](https://laravel.com/)
+- [Livewire](https://livewire.laravel.com/)
+- [Reverb](https://laravel.com/docs/11.x/reverb)
+- [Prism](https://prismphp.com/)
+- [Ollama](https://ollama.com/)
+- [PGVector](https://github.com/pgvector/pgvector)
+- [romanlazko/laravel-telegram](https://github.com/romanlazko/laravel-telegram)
 
