@@ -124,7 +124,7 @@ PROMPT;
                 ->asText();
 
             $content = trim($response->text);
-            Log::info('❕LLM raw response', ['response' => $content]);
+            Log::info('❕LLM extracted facts in raw', ['response' => $content]);
 
             if (str_starts_with($content, '```')) {
                 $content = preg_replace('/^```(json)?\n|\n```$/u', '', $content);

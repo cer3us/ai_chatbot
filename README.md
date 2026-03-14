@@ -145,7 +145,20 @@ php artisan telegram:bot your_bot_name
 ```bash
 php artisan telegram:set-webhook
 ```
-5. Ensure your APP_URL is publicly accessible (can use `ngrok` for development).
+5. After registering your bot a new `Provider` will be created in `app/Providers/Telegram/YourBot.php`. In order to find the commands (like `DefaultCommand.php`) need to change this line:
+```bash
+->discoverCommands(app_path('Telegram/MyAiFriendChatBot/Commands'), "App\\Telegram\\MyAiFriendChatBot\\Commands")
+```
+change to (or edit to fit your needs):
+```bash
+ ->getCommandClassFromUpdateUsing(function ($update) {
+                    if (isset($update->message->text)) {
+                        return \App\Telegram\MyAiFriendChatBot\Commands\DefaultCommand::class;
+                    }
+                    return \App\Telegram\MyAiFriendChatBot\Commands\StartCommand::class;
+                })
+```
+6. Ensure your APP_URL is publicly accessible (can use `ngrok` for development).
 The bot will respond to any text message using the same AIService as the web chat.
 
 ## 🧠 How Memory Works

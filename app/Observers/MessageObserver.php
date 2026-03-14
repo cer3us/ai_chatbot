@@ -11,7 +11,7 @@ class MessageObserver
 
     public function created(Message $message): void
     {
-        Log::info('MessageObserver created fired', ['message_id' => $message->id, 'content' => $message->content]);
+        Log::info('MessageObserver created fired', ['message_id' => $message->id]);
         if ($message->is_ai) {
             return;
         }

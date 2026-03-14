@@ -175,7 +175,7 @@ class ChatInterface extends Component
     public function messageReceived($event)
     {
 
-        \Log::info('📨 Livewire received event', ['event' => $event]);
+        \Log::info('📨 Livewire received event (ChatInterface)');
 
         $this->messages[] = $event;
         if ($event['is_ai'] ?? false) {
