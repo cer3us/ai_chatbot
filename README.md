@@ -186,5 +186,3 @@ The bot will respond to any text message using the same AIService as the web cha
 - [PGVector](https://github.com/pgvector/pgvector)
 - [romanlazko/laravel-telegram](https://github.com/romanlazko/laravel-telegram)
 
----
-
